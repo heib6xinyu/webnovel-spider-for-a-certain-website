@@ -36,7 +36,7 @@ def main(total_chapters):
     driver = webdriver.Chrome()  # or use `webdriver.Firefox()`, etc., depending on your browser
     
     # Replace this URL with the URL of the page you want to scrape
-    url = 'https://www.jjwxc.net/onebook.php?novelid=7972788&chapterid=1'
+    url = 'the_website's_url'
     driver.get(url)
     
     for _ in range(total_chapters):
